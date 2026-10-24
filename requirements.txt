@@ -1,0 +1,6 @@
+pandas==2.2.2
+pyarrow==16.1.0
+pyspark==3.5.1
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.30
+pytest==8.2.2

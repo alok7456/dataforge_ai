@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+data/raw/
+data/staging/
+data/curated/
+data/rejected/
+.env
