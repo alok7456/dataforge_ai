@@ -16,7 +16,7 @@ JOIN dw.dim_customer c ON c.customer_key = f.customer_key;
 
 CREATE OR REPLACE VIEW dw.kpi_top10_customers AS
 SELECT c.customer_id,
-       max(c.customer_name) AS customer_name,
+       max(c.customer_name) AS customer_name, 
        count(*)             AS total_orders
 FROM dw.fact_order_fulfillment f
 JOIN dw.dim_customer c ON c.customer_key = f.customer_key

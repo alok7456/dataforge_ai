@@ -80,6 +80,20 @@ services:
       postgres:
         condition: service_healthy
 
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: orderflow_dashboard
+    environment:
+      DW_URL: postgresql+psycopg2://orderflow:orderflow123@postgres:5432/orderflow_dw
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
 volumes:
   pgdata:
   airflow-pgdata:
