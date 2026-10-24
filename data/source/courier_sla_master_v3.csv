@@ -1,0 +1,13 @@
+COURIER_ID,COURIER_NAME,SLA_DAYS,SERVICE_TYPE
+C001,SwiftShip,2,National
+C002,BlueDart,3,National
+C003,Delhivery,4,National
+C004,Ecom Express,3,National
+C005,India Post,6,National
+C006,Shadowfax,2,Regional
+C007,DTDC,4,National
+C008,XpressBees,3,National
+C009,Ekart,2,Regional
+C010,QuickKart Logistics,5,Regional
+C011,MetroMove,1,Metro
+C012,ParcelPro,4,Regional

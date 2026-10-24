@@ -1,0 +1,20 @@
+KPI,SUGGESTED_TEST_DEFINITION
+Total Orders,Count distinct valid ORDER_ID values in chosen order population.
+Delivered Orders,Count orders with ORDER_STATUS = Delivered.
+Cancelled Orders,Count orders with ORDER_STATUS = Cancelled.
+Returned Orders,Count orders with ORDER_STATUS = Returned.
+In-Transit Orders,Count orders with ORDER_STATUS = In Transit.
+Distinct Customers,Count distinct non-null CUSTOMER_ID among valid orders.
+Top 10 Customers by Orders,Rank customers by count of valid orders; tie-break by CUSTOMER_ID.
+Average Delivery Days,Average DELIVERY_DATE - SHIPPED_DATE for delivered orders with valid dates.
+Average SLA Days,Average SLA_DAYS across couriers on valid orders (or distinct courier master; document choice).
+On-Time Delivery %,Delivered orders with delivery days <= SLA_DAYS / delivered orders with valid dates * 100.
+Late Delivery %,Delivered orders with delivery days > SLA_DAYS / delivered orders with valid dates * 100.
+Shipment Success Rate,Suggested: delivered / (delivered + returned + cancelled) * 100; document chosen denominator.
+Orders by Courier,Count valid orders grouped by COURIER_ID / COURIER_NAME.
+Courier-wise On-Time %,On-time delivered orders for courier / valid delivered orders for courier * 100.
+Courier-wise Delay %,Late delivered orders for courier / valid delivered orders for courier * 100.
+Monthly Order Trend,Count valid orders grouped by month of ORDER_DATE.
+Monthly Delivery Trend,Count delivered orders grouped by month of DELIVERY_DATE.
+Status-wise Trend,Count orders by ORDER_STATUS and month of ORDER_DATE.
+Courier-wise Trend,Count orders by courier and month of ORDER_DATE.
