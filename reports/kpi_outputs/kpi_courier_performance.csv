@@ -1,0 +1,13 @@
+courier_id,courier_name,sla_days,total_orders,delivered_orders,on_time_pct,delay_pct,avg_delivery_days,avg_delay_days
+C001,SwiftShip,2,255,94,24.47,75.53,4.61,2.72
+C002,BlueDart,3,219,70,40.0,60.0,4.37,1.76
+C003,Delhivery,4,257,93,55.91,44.09,4.19,0.99
+C004,Ecom Express,3,240,83,38.55,61.45,4.42,1.78
+C005,India Post,6,245,99,68.69,31.31,4.81,0.43
+C006,Shadowfax,2,264,100,17.0,83.0,4.63,2.71
+C007,DTDC,4,242,79,48.1,51.9,4.35,1.27
+C008,XpressBees,3,245,91,35.16,64.84,4.67,2.05
+C009,Ekart,2,258,98,26.53,73.47,4.23,2.4
+C010,QuickKart Logistics,5,266,97,59.79,40.21,4.67,0.86
+C011,MetroMove,1,295,97,15.46,84.54,4.34,3.34
+C012,ParcelPro,4,251,105,60.95,39.05,4.11,1.04

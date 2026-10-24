@@ -1,0 +1,127 @@
+year_month,order_status,total_orders
+2025-01,Cancelled,16
+2025-01,Delivered,43
+2025-01,In Transit,16
+2025-01,Processing,31
+2025-01,Returned,22
+2025-01,Shipped,23
+2025-02,Cancelled,17
+2025-02,Delivered,60
+2025-02,In Transit,22
+2025-02,Processing,14
+2025-02,Returned,32
+2025-02,Shipped,17
+2025-03,Cancelled,18
+2025-03,Delivered,58
+2025-03,In Transit,23
+2025-03,Processing,18
+2025-03,Returned,26
+2025-03,Shipped,27
+2025-04,Cancelled,20
+2025-04,Delivered,45
+2025-04,In Transit,16
+2025-04,Processing,18
+2025-04,Returned,14
+2025-04,Shipped,20
+2025-05,Cancelled,16
+2025-05,Delivered,63
+2025-05,In Transit,15
+2025-05,Processing,11
+2025-05,Returned,20
+2025-05,Shipped,29
+2025-06,Cancelled,17
+2025-06,Delivered,63
+2025-06,In Transit,22
+2025-06,Processing,20
+2025-06,Returned,14
+2025-06,Shipped,22
+2025-07,Cancelled,18
+2025-07,Delivered,53
+2025-07,In Transit,18
+2025-07,Processing,18
+2025-07,Returned,22
+2025-07,Shipped,12
+2025-08,Cancelled,32
+2025-08,Delivered,55
+2025-08,In Transit,10
+2025-08,Processing,23
+2025-08,Returned,20
+2025-08,Shipped,13
+2025-09,Cancelled,13
+2025-09,Delivered,37
+2025-09,In Transit,13
+2025-09,Processing,17
+2025-09,Returned,20
+2025-09,Shipped,17
+2025-10,Cancelled,16
+2025-10,Delivered,59
+2025-10,In Transit,15
+2025-10,Processing,13
+2025-10,Returned,25
+2025-10,Shipped,13
+2025-11,Cancelled,17
+2025-11,Delivered,45
+2025-11,In Transit,16
+2025-11,Processing,14
+2025-11,Returned,25
+2025-11,Shipped,18
+2025-12,Cancelled,17
+2025-12,Delivered,58
+2025-12,In Transit,22
+2025-12,Processing,17
+2025-12,Returned,22
+2025-12,Shipped,15
+2026-01,Cancelled,27
+2026-01,Delivered,61
+2026-01,In Transit,13
+2026-01,Processing,19
+2026-01,Returned,19
+2026-01,Shipped,20
+2026-02,Cancelled,19
+2026-02,Delivered,52
+2026-02,In Transit,12
+2026-02,Processing,11
+2026-02,Returned,15
+2026-02,Shipped,17
+2026-03,Cancelled,18
+2026-03,Delivered,55
+2026-03,In Transit,14
+2026-03,Processing,20
+2026-03,Returned,24
+2026-03,Shipped,20
+2026-04,Cancelled,18
+2026-04,Delivered,48
+2026-04,In Transit,20
+2026-04,Processing,19
+2026-04,Returned,15
+2026-04,Shipped,17
+2026-05,Cancelled,20
+2026-05,Delivered,46
+2026-05,In Transit,24
+2026-05,Processing,21
+2026-05,Returned,29
+2026-05,Shipped,17
+2026-06,Cancelled,21
+2026-06,Delivered,55
+2026-06,In Transit,15
+2026-06,Processing,18
+2026-06,Returned,21
+2026-06,Shipped,20
+2026-07,Cancelled,13
+2026-07,Delivered,47
+2026-07,In Transit,17
+2026-07,Processing,25
+2026-07,Returned,14
+2026-07,Shipped,25
+2026-08,Cancelled,15
+2026-08,Delivered,60
+2026-08,In Transit,17
+2026-08,Processing,22
+2026-08,Returned,14
+2026-08,Shipped,20
+2026-09,Cancelled,14
+2026-09,Delivered,43
+2026-09,In Transit,8
+2026-09,Processing,9
+2026-09,Returned,14
+2026-09,Shipped,14

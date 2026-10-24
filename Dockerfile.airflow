@@ -1,0 +1,4 @@
+FROM apache/airflow:2.9.3-python3.11
+COPY requirements-etl.txt /tmp/requirements-etl.txt
+RUN python -m venv /home/airflow/etl-venv \
+ && /home/airflow/etl-venv/bin/pip install --no-cache-dir -r /tmp/requirements-etl.txt

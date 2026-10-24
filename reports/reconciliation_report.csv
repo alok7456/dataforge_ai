@@ -1,0 +1,20 @@
+check,expected,actual,result
+customers: source rows = valid + rejected,300,300,PASS
+couriers: source rows = valid + rejected,12,12,PASS
+orders_clean: source rows = valid + rejected,2500,2500,PASS
+orders_dirty: source rows = valid + rejected,600,600,PASS
+fact rows = valid clean + valid dirty orders,3037,3037,PASS
+dim_customer current rows = valid customers,300,300,PASS
+dim_courier rows = valid couriers,12,12,PASS
+rejected_records table = rejected files,63,63,PASS
+fact grain: distinct order_id = row count,3037,3037,PASS
+customers with more than one current version,0,0,PASS
+delivered orders missing delivery_days,0,0,PASS
+on-time + late = delivered,1106,1106,PASS
+Delivered orders: staging recompute vs warehouse,1106,1106,PASS
+Cancelled orders: staging recompute vs warehouse,382,382,PASS
+Returned orders: staging recompute vs warehouse,427,427,PASS
+In Transit orders: staging recompute vs warehouse,348,348,PASS
+on-time orders: staging recompute vs warehouse,453,453,PASS
+late orders: staging recompute vs warehouse,653,653,PASS
+kpi_order_summary.total_orders = fact rows,3037,3037,PASS

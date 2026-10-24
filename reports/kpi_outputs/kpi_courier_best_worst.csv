@@ -1,0 +1,3 @@
+ranking,courier_id,courier_name,sla_days,total_orders,delivered_orders,on_time_pct,delay_pct,avg_delivery_days,avg_delay_days
+Best,C005,India Post,6,245,99,68.69,31.31,4.81,0.43
+Worst,C011,MetroMove,1,295,97,15.46,84.54,4.34,3.34
